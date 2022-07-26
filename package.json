@@ -1,0 +1,17 @@
+{
+  "name": "test-luxon-issue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "repos/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "wsrun": "^5.2.4"
+  },
+  "packageManager": "yarn@3.2.2"
+}

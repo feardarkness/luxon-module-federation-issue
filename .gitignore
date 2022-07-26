@@ -1,0 +1,10 @@
+node_modules/
+
+.yarn/unplugged
+.yarn/sdks
+.yarn/cache
+.yarn/install-state.gz
+.pnp*
+
+# Dist is not excluded because it is needed to deploy with capistrano.
+# dist
